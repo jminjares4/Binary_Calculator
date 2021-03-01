@@ -14,10 +14,10 @@ void main(void){
 	lcdClear();
 	/*Display Message*/
 	lcdSetText("Go Miners!!!",0,0);
-    delay_ms(5000); //delay for 5 seconds
+   	 delay_ms(5000); //delay for 5 seconds
 
-    led_init(LED); //intialize LED
-    /*Initialize Inputs for Operand, BCD and Enter buttons*/
+   	 led_init(LED); //intialize LED
+    	/*Initialize Inputs for Operand, BCD and Enter buttons*/
 	operand_button_setup(SW1|SW2);
 	bcd_button_setup(B0|B1|B2|B3);
 	enter_button_setup(ENTER);
